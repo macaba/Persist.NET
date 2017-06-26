@@ -7,7 +7,7 @@ using System.IO;
 
 namespace Persist.NET
 {
-    public class PersistList<T> : IList<T>
+    public class PersistList<T> : IList<T>, IPersistList
     {
         private readonly IList<T> _list;
 
